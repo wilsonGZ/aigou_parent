@@ -13,6 +13,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hpyao/aigou-config2.git
+          uri: https://github.com/wilsonGZ/aigou-config.git
           username: hpyao
           password: Itsource20180731
