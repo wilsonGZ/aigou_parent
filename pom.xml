@@ -14,7 +14,9 @@
         <module>basic_parent</module>
         <module>zuul_gateway_9527</module>
         <module>config_server_8848</module>
-
+        <module>aigou_gen</module>
+        <module>product_parent</module>
+        <module>common_parent</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
