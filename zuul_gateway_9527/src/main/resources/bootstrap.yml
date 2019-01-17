@@ -8,8 +8,15 @@ spring:
       label: master #分支
       discovery:
         enabled: true #从eureka上面找配置服务
-        service-id: aigou-config-server #指定服务名
+        service-id: aigou-zuul-gateway #指定服务名
       #uri: http://127.0.0.1:1299 #配置服务器 单机配置
+zuul:
+  routes:
+    api-a:
+      path: /plat/**
+      service-id: aigou-plat
+  ignored-services: "*"
+  prefix: "/services"
 eureka: #eureka不能放到远程配置中
   client:
     service-url:

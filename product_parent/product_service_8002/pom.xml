@@ -94,11 +94,6 @@
             <artifactId>feign-core</artifactId>
             <version>9.5.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-all</artifactId>
-            <version>5.14.4</version>
-        </dependency>
     </dependencies>
 
     <!--打包插件依赖-->
